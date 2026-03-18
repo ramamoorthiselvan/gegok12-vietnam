@@ -140,7 +140,7 @@
       <div class="tw-form-group w-full lg:w-2/5">
         <div class="lg:mr-8 md:mr-8">
           <div class="mb-2">
-            <label for="blood_group" class="tw-form-label">Blood Group<span class="text-red-500">*</span></label>
+            <label for="blood_group" class="tw-form-label">Blood Group</label>
           </div>
           <div class="mb-2">
             <select class="tw-form-control w-full" id="blood_group" v-model="blood_group" name="blood_group">
@@ -155,10 +155,10 @@
       <div class="tw-form-group w-full lg:w-2/5">
         <div class="lg:mr-8 md:mr-8">
           <div class="mb-2">
-            <label for="aadhar_number" class="tw-form-label">Aadhaar Number</label>
+            <label for="aadhar_number" class="tw-form-label">Identification Number</label>
           </div>
           <div class="mb-2">
-            <input type="text" class="tw-form-control w-full" id="aadhar_number" v-model="aadhar_number" name="aadhar_number" Placeholder="Aadhar Number">
+            <input type="text" class="tw-form-control w-full" id="aadhar_number" v-model="aadhar_number" name="aadhar_number" Placeholder="Identification Number">
           </div>
           <span v-if="errors.aadhar_number" class="text-red-500 text-xs font-semibold">{{errors.aadhar_number[0]}}</span>
         </div> 
@@ -291,7 +291,7 @@
       <div class="tw-form-group w-full lg:w-1/3" v-if=" this.designation != '' && this.designation != 'principal' && this.designation != 'vice_principal' ">
         <div class="lg:mr-8 md:mr-8">
           <div class="mb-2">
-            <label for="reporting_to" class="tw-form-label">Report Tocc</label>
+            <label for="reporting_to" class="tw-form-label">Report To</label>
           </div>
           <div class="mb-2" v-if="this.designation == 'head_of_the_department' ">
             <select name="reporting_to" v-model="reporting_to" id="reporting_to" class="tw-form-control w-full">

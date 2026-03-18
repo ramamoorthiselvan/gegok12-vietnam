@@ -115,7 +115,7 @@ class TeacherProfileAddRequest extends FormRequest
             'mobile_no'             => 'required|numeric|digits:10|checkunique_mobile',
             'email'                 => 'nullable|email|checkunique_email',
             'gender'                => 'required',
-            'blood_group'           => 'required',
+            // 'blood_group'           => 'required',
             'aadhar_number'         => 'nullable|numeric|digits:12|checkunique_aadhar_no',
             //'avatar'                => 'required|mimes:jpg,jpeg,png',
             'employee_id'           => 'required|alpha_num|checkunique_employee_id',
@@ -170,7 +170,7 @@ class TeacherProfileAddRequest extends FormRequest
 
             'gender.required'                           => 'Gender Is Required',
 
-            'blood_group.required'                      => 'Blood Group Is Required',
+            // 'blood_group.required'                      => 'Blood Group Is Required',
 
             'aadhar_number.required'                    => 'Aadhaar Number Is Required',
             'aadhar_number.numeric'                     => 'Aadhaar Number Should Be Numeric',
