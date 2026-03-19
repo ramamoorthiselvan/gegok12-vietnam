@@ -123,7 +123,7 @@
       <div class="tw-form-group w-full lg:w-1/3">
         <div class="lg:mr-8 md:mr-8">
           <div class="mb-2">
-            <label for="blood_group" class="tw-form-label">Blood Group<span class="text-red-500">*</span></label>
+            <label for="blood_group" class="tw-form-label">Blood Group</label>
           </div>
           <div class="mb-2">
             <select class="tw-form-control w-full" id="blood_group" v-model="blood_group" name="blood_group">
@@ -138,7 +138,7 @@
       <div class="tw-form-group w-full lg:w-1/3">
         <div class="lg:mr-8 md:mr-8">
           <div class="mb-2">
-            <label for="aadhar_number" class="tw-form-label">Aadhaar Number</label>
+            <label for="aadhar_number" class="tw-form-label">Identification Number</label>
           </div>
           <div class="mb-2">
             <input type="text" class="tw-form-control w-full" id="aadhar_number" v-model="aadhar_number" name="aadhar_number">
